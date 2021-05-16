@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestSubstring", "Longest
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestPalindromicSubstring", "LongestPalindromicSubstring\LongestPalindromicSubstring.csproj", "{C53CE278-99E7-4F42-9E9D-7D90B0B3B63D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZigZagConversion", "ZigZagConversion\ZigZagConversion.csproj", "{8288D881-C0E2-4E92-8042-9A8A465DC137}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZigZagConversion", "ZigZagConversion\ZigZagConversion.csproj", "{8288D881-C0E2-4E92-8042-9A8A465DC137}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringToInteger", "StringToInteger\StringToInteger.csproj", "{724D254C-BF54-4521-ABE9-D104F35672A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{8288D881-C0E2-4E92-8042-9A8A465DC137}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8288D881-C0E2-4E92-8042-9A8A465DC137}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8288D881-C0E2-4E92-8042-9A8A465DC137}.Release|Any CPU.Build.0 = Release|Any CPU
+		{724D254C-BF54-4521-ABE9-D104F35672A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724D254C-BF54-4521-ABE9-D104F35672A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724D254C-BF54-4521-ABE9-D104F35672A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724D254C-BF54-4521-ABE9-D104F35672A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
