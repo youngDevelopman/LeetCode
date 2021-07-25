@@ -54,9 +54,39 @@ public:
     }
 };
 
+// Recursive
+class Solution2 {
+private:
+    vector<string> keys = { "","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz" };
+    void bt(vector<string>& res, string temp, int start, string digits) {
+        
+        if (digits.size() == temp.size()) {
+            res.push_back(temp);
+            return;
+        }
+
+        string s = keys[digits[start] - '0'];
+        for (size_t i = 0; i < s.size(); i++)
+        {
+            temp += s[i];
+            bt(res, temp, start + 1, digits);
+            temp.pop_back();
+        }
+    }
+public:
+    vector<string> letterCombinations(string digits) {
+        vector<string> res;
+        if (digits.size() == 0)
+            return res;
+        bt(res, "", 0, digits);
+
+        return res;
+    }
+};
+
 int main()
 {
-    Solution myObj;
+    Solution2 myObj;
     vector<string> res = myObj.letterCombinations("234");
     std::cout << "Number of elements " << res.size() << endl;
     for (size_t i = 0; i < res.size(); i++)
