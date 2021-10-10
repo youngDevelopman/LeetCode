@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RemoveNthNode", "RemoveNthN
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GenerateParentheses", "GenerateParentheses\GenerateParentheses.vcxproj", "{C81F6ABA-A710-4466-A696-B401E5986562}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SwapNodesPairs", "SwapNodesPairs\SwapNodesPairs.vcxproj", "{73A4535B-AD44-4FE4-B4FA-A34C73F5189C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -133,6 +135,16 @@ Global
 		{C81F6ABA-A710-4466-A696-B401E5986562}.Release|x64.Build.0 = Release|x64
 		{C81F6ABA-A710-4466-A696-B401E5986562}.Release|x86.ActiveCfg = Release|Win32
 		{C81F6ABA-A710-4466-A696-B401E5986562}.Release|x86.Build.0 = Release|Win32
+		{73A4535B-AD44-4FE4-B4FA-A34C73F5189C}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{73A4535B-AD44-4FE4-B4FA-A34C73F5189C}.Debug|x64.ActiveCfg = Debug|x64
+		{73A4535B-AD44-4FE4-B4FA-A34C73F5189C}.Debug|x64.Build.0 = Debug|x64
+		{73A4535B-AD44-4FE4-B4FA-A34C73F5189C}.Debug|x86.ActiveCfg = Debug|Win32
+		{73A4535B-AD44-4FE4-B4FA-A34C73F5189C}.Debug|x86.Build.0 = Debug|Win32
+		{73A4535B-AD44-4FE4-B4FA-A34C73F5189C}.Release|Any CPU.ActiveCfg = Release|Win32
+		{73A4535B-AD44-4FE4-B4FA-A34C73F5189C}.Release|x64.ActiveCfg = Release|x64
+		{73A4535B-AD44-4FE4-B4FA-A34C73F5189C}.Release|x64.Build.0 = Release|x64
+		{73A4535B-AD44-4FE4-B4FA-A34C73F5189C}.Release|x86.ActiveCfg = Release|Win32
+		{73A4535B-AD44-4FE4-B4FA-A34C73F5189C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
